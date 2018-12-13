@@ -48,3 +48,4 @@ directory_path = "D:\\Education\\Z\\Tagged-Corpus\\V2\\PART" + str(part_no)
 for filename in os.listdir(directory_path):
     file_name_str = filename.title().upper().split('.')
     scrap_adjectives(file_name_str[0])
+#edited
